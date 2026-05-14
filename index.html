@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      style="
+        height: 56px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.02);
+        backdrop-filter: 64px;
+        position: fixed;
+      "
+    >
+      <div>
+        <img src="./image copy 8.png" style="width: 220px; height: 56px" />
+      </div>
+      <div
+        style="display: flex; align-items: center; width: 420px; height: 56px"
+      >
+        <a style="font-size: 14px; color: #ffffff; padding: 6px 16px"
+          >Vehicles</a
+        >
+        <a style="font-size: 14px; color: #ffffff; padding: 6px 16px">Energy</a>
+        <a style="font-size: 14px; color: #ffffff; padding: 6px 16px"
+          >Charging</a
+        >
+        <a style="font-size: 14px; color: #ffffff; padding: 6px 16px"
+          >Discover</a
+        >
+        <a style="font-size: 14px; color: #ffffff; padding: 6px 16px">Shop</a>
+      </div>
+      <div style="width: 220px"></div>
+    </nav>
+    <section
+      style="
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <video
+        src="./Section1-Background.mp4"
+        muted
+        autoplay
+        loop
+        style="
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1;
+        "
+      ></video>
+
+      <div
+        style="
+          padding-top: 72px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #ffffff">Model Y</h1>
+        <h2 style="font-size: 20px; color: #ffffff">From $31,890*</h2>
+        <p style="font-size: 12px; color: #ffffff">
+          After Federal Tax Credit & Est. Gas Savings
+        </p>
+      </div>
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 400px;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Shop Available
+          </button>
+
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(23, 26, 32, 0.65);
+              color: #ffffff;
+              border-radius: 4px;
+            "
+          >
+            Demo Drive
+          </button>
+        </div>
+
+        <p style="font-size: 12px; color: #ffffff">
+          *Price before incentives and savings is $42,990, excluding taxes and
+          fees. Subject to change.
+        </p>
+        <a style="font-size: 12px; color: #ffffff"
+          >Learn about est. gas savings.</a
+        >
+      </div>
+    </section>
+    <section
+      style="
+        background-image: url(./image.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px">Brand New Model 3</h1>
+        <p>Lease starting at $329/mo*</p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Custom Order
+          </button>
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(23, 26, 32, 0.65);
+              color: #ffffff;
+              border-radius: 4px;
+            "
+          >
+            Demo Drive
+          </button>
+        </div>
+        <p style="color: #ffffff">
+          *Excludes taxes and fees with price subject to change. Available in
+          select states.
+        </p>
+        <a href="" style="color: #ffffff"> See detials </a>
+      </div>
+    </section>
+    <section
+      style="
+        background-image: url(./image\ copy.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px">Model X</h1>
+        <p style="font-size: 20px">From $68,590*</p>
+        <p style="font-size: 12px">
+          After Federal Tax Credit & Est. Gas Savings
+        </p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Custom Order
+          </button>
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(23, 26, 32, 0.65);
+              color: #ffffff;
+              border-radius: 4px;
+            "
+          >
+            Demo Drive
+          </button>
+        </div>
+        <p style="color: #ffffff; font-size: 12px">
+          *Price before incentives and savings is $79,990, excluding taxes and
+          fees. Subject to change.
+        </p>
+        <a href="" style="color: #ffffff; font-size: 12px">
+          Learn about est. gas savings.
+        </a>
+      </div>
+    </section>
+    <section
+      style="
+        background-image: url(./image\ copy\ 2.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px">Model S</h1>
+        <p style="font-size: 20px">From $71,090*</p>
+        <p style="font-size: 12px">After Est. Gas Savings</p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Custom Order
+          </button>
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(23, 26, 32, 0.65);
+              color: #ffffff;
+              border-radius: 4px;
+            "
+          >
+            Demo Drive
+          </button>
+        </div>
+        <p style="font-size: 12px">
+          *Price before savings is $74,990, excluding taxes and fees. Subject to
+          change.
+        </p>
+        <a href="" style="font-size: 12px"> Learn about est. gas savings. </a>
+      </div>
+    </section>
+    <section
+      style="
+        background-image: url(./image\ copy\ 3.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div></div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 32px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Order Now
+          </button>
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(23, 26, 32, 0.65);
+              border-radius: 4px;
+              color: #ffffff;
+            "
+          >
+            Custem Order
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      style="
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+      "
+    >
+      <video
+        src="./section6-background.mp4"
+        muted
+        autoplay
+        loop
+        style="
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1;
+        "
+      ></video>
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px; color: #ffffff">Experience Tesla</h1>
+        <p style="color: #ffffff">Schedule a Demo Drive Today</p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      style="
+        background-image: url(./image\ copy\ 4.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: #ffffff;
+        "
+      >
+        <h1 style="font-size: 40px">Solar Panels</h1>
+        <a href="" ; style="font-size: 14px">Schedule a Virtual Consultation</a>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Learn more
+          </button>
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(23, 26, 32, 0.65);
+              border-radius: 4px;
+              color: #ffffff;
+            "
+          >
+            Custem Order
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      style="
+        background-image: url(./image\ copy\ 5.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px">Solar Roof</h1>
+        <p>Produce Clean Energy From Your Roof</p>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Order Now
+          </button>
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(23, 26, 32, 0.65);
+              color: #ffffff;
+              border-radius: 4px;
+            "
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      style="
+        background-image: url(./image\ copy\ 6.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px">Powerwall</h1>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+            "
+          >
+            Order now
+          </button>
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(23, 26, 32, 0.65);
+              color: #ffffff;
+              border-radius: 4px;
+            "
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+    <section
+      style="
+        background-image: url(./image\ copy\ 7.png);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div
+        style="
+          margin-top: 128px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <h1 style="font-size: 40px">Accessories</h1>
+      </div>
+
+      <div
+        style="
+          margin-bottom: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
+        <div style="display: flex; gap: 24px; margin-bottom: 32px">
+          <button
+            style="
+              width: 264px;
+              height: 40px;
+              background-color: rgba(244, 244, 244, 0.8);
+              border-radius: 4px;
+              font-size: 14px;
+            "
+          >
+            Shop
+          </button>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 519px;
+            height: 70px;
+            gap: 14px;
+          "
+        >
+          <p style="color: rgba(208, 209, 210, 1); font-size: 12px">
+            Tesla © 2024
+          </p>
+          <p style="color: rgba(208, 209, 210, 1); font-size: 12px">
+            Privacy & Legal
+          </p>
+          <p style="color: rgba(208, 209, 210, 1); font-size: 12px">
+            Vehicle Recalls
+          </p>
+          <p style="color: rgba(208, 209, 210, 1); font-size: 12px">Contact</p>
+          <p style="color: rgba(208, 209, 210, 1); font-size: 12px">News</p>
+          <p style="color: rgba(208, 209, 210, 1); font-size: 12px">
+            Get Updates
+          </p>
+          <p style="color: rgba(208, 209, 210, 1); font-size: 12px">
+            Locations
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
